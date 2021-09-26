@@ -3,10 +3,10 @@
 using namespace std;
 
 int main(){
-    //max heap
+    //max heap , always larger elements come first 
     priority_queue<int> maxheap;
 
-    //min heap 
+    //min heap , always smaller elements come first
     priority_queue<int, vector<int> , greater<int> >minheap;
 
     cout<<"For MAX_HEAP \nelements pushed - "<<endl;
